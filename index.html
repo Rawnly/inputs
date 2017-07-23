@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> CSS Switch </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		</video>
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto,100,200,300,400,500,600,700,800" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="js/jquery.min.js" charset="utf-8"></script>
+		<script src="js/index.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="check-gr">
+				<h4><b id="status">OFF</b></h4>
+				<input type="checkbox" id="switch" class="switch">
+			</div>
+		</div>
+		<div class="container">
+			<form>
+				<h4> Which pizza do you prefer? </h4>
+				<div class="input-group">
+					<input checked type="radio" id="pizza1" class="radio" name="pizza">
+					<label for="pizza1"> Margherita </label>
+				</div>
+
+				<div class="input-group">
+					<input type="radio" id="pizza2" class="radio" name="pizza">
+					<label for="pizza2"> Capricciosa </label>
+				</div>
+
+				<div class="input-group">
+					<input disabled type="radio" id="pizza3" class="radio" name="pizza">
+					<label for="pizza3"> Wrustel &amp; Chips </label>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
